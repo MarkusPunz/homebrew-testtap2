@@ -6,9 +6,8 @@ class Mptest2 < Formula
   sha256 "666f6626b4b2077369fdd6c134ea3666a2a136b6e9dfa2d7dcb0b1ea9fafa5c7"
 
   bottle do
-    root_url "https://github.com/MarkusPunz/homebrew-testtap2/releases/download/mptest2-0.0.8"
-    sha256 cellar: :any_skip_relocation, ventura:      "c1977dbaa33a77a94317f1dbe5ca867403b36b7d80cd56c3cfccd1480179827b"
-    sha256 cellar: :any_skip_relocation, x86_64_linux: "22d8caee858b82dba64b1f11b6ff86a189220b8ed8dce2494a0bac0e929578be"
+    root_url "https://github.com/MarkusPunz/homebrew-testtap2/releases/download/mptest2-0.0.10"
+    sha256 cellar: :any_skip_relocation, ventura: "5b69b46b3083ab86ebf83ba5508c94c5b34a6863fc254f3a131adfee84dfa35a"
   end
 
   on_macos do
