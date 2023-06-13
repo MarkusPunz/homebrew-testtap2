@@ -15,7 +15,6 @@ class Mptest2 < Formula
   on_linux do
     def install
       prefix.install Dir["*"]
-      lib.install_symlink prefix/"acosid-pkcs11.dylib"
     end
   end
 
